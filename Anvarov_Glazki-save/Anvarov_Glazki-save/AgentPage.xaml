@@ -17,6 +17,21 @@
             <RowDefinition Height="auto"></RowDefinition>
         </Grid.RowDefinitions>
 
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Right">
+            <TextBlock Name="TBCount" FontSize="20" Height="20"></TextBlock>
+            <TextBlock Name="TBAllRecords" FontSize="20" Height="20"></TextBlock>
+            <Button Name="LeftDirButton" Content="&lt;" Width="20" Height="20" Click="LeftDirButton_Click"></Button>
+            <ListBox FontSize="20" Name="PageListBox" MouseUp="PageListBox_MouseUp">
+                <ListBox.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <WrapPanel Orientation="Horizontal"/>
+                    </ItemsPanelTemplate>
+                </ListBox.ItemsPanel>
+            </ListBox>
+            <Button Name="RightDirButton" Content="&gt;" Width="20" Height="20" Click="RightDirButton_Click"></Button>
+        </StackPanel>
+        
+
         <WrapPanel Orientation="Horizontal" HorizontalAlignment="Center">
             <StackPanel Margin="10" Orientation="Horizontal" Grid.Row="0">
                 <TextBox Name="TBoxSearch" TextChanged="TBoxSearch_TextChanged" Margin="5" Width="300" FontSize="20"></TextBox>
@@ -60,7 +75,7 @@
                                 <Binding Path="Logo">
                                     <Binding.TargetNullValue>
                                         <ImageSource>
-                                            Resources/Глазки-save.png
+                                            Resources/picture.png
                                         </ImageSource>
                                     </Binding.TargetNullValue>
                                 </Binding>
