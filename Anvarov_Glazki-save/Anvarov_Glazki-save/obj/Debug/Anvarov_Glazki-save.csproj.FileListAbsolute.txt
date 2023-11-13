@@ -1,7 +1,6 @@
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\bin\Debug\Anvarov_Glazki-save.exe.config
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\bin\Debug\Anvarov_Glazki-save.exe
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\bin\Debug\Anvarov_Glazki-save.pdb
-D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.csproj.AssemblyReference.cache
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\MainWindow.g.cs
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\App.g.cs
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save_MarkupCompile.cache
@@ -23,3 +22,6 @@ D:\Учёба\Разработка программных модулей\Про�
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save_Content.g.cs
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\AgentPage.baml
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.csproj.CopyComplete
+D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\AddEditPage.g.cs
+D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\AddEditPage.baml
+D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.csproj.AssemblyReference.cache

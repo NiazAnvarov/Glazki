@@ -55,6 +55,8 @@
             </StackPanel>
         </WrapPanel>
 
+        <Button Content="Добавить Агента" Name="AddButton" Click="AddButton_Click" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="1"></Button>
+
         <ListView Name="AgentListView" Grid.Row="2">
             <ListView.ItemTemplate>
                 <DataTemplate>
@@ -86,8 +88,12 @@
                             <TextBlock Text=" | " FontSize="20"></TextBlock>
                             <TextBlock Text="{Binding Title}" Grid.Column="1" Grid.Row="0" HorizontalAlignment="Right"  FontSize="20" TextWrapping="Wrap"></TextBlock>
                         </StackPanel>
-                        <TextBlock Text="{Binding Phone}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="16"></TextBlock>
-                        <TextBlock Text="{Binding Priority, StringFormat=Приоритетность: {0}}" Grid.Column="1" Grid.Row="3" HorizontalAlignment="Left" FontSize="16"></TextBlock>
+                        <TextBlock Text="{Binding Phone}" Grid.Column="1" Grid.Row="1" HorizontalAlignment="Left" FontSize="16"></TextBlock>
+                        <TextBlock Text="{Binding Priority, StringFormat=Приоритетность: {0}}" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Left" FontSize="16"></TextBlock>
+                        <StackPanel Grid.Column ="1" Grid.Row="3" Orientation="Horizontal">
+                            <Button HorizontalAlignment="Right" Name="EditButton" Content="Редактировать" Click="EditButton_Click"></Button>
+                        </StackPanel>
+                        
                     </Grid>
                 </DataTemplate>
             </ListView.ItemTemplate>

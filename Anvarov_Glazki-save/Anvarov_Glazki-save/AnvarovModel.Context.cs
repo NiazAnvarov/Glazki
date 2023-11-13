@@ -21,7 +21,9 @@ namespace Anvarov_Glazki_save
         public static Anvarov_GlazkiEntities GetContext()
         {
             if (_context == null)
+            {
                 _context = new Anvarov_GlazkiEntities();
+            }
 
             return _context;
         }
