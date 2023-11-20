@@ -83,7 +83,6 @@ namespace Anvarov_Glazki_save
                 MessageBox.Show(errors.ToString());
                 return;
             }
-            MessageBox.Show(ComboType.SelectedIndex.ToString());
             currentAgent.AgentTypeID = ComboType.SelectedIndex + 1;
 
             var allAgent = Anvarov_GlazkiEntities.GetContext().Agent.ToList();
