@@ -34,6 +34,7 @@ namespace Anvarov_Glazki_save
             {
                 check = true;
                 currentAgent = SelectedAgent;
+                ComboType.SelectedIndex = currentAgent.AgentTypeID - 1;
             }
 
             DataContext = currentAgent;
@@ -134,6 +135,11 @@ namespace Anvarov_Glazki_save
                     }
                 }
             }
+        }
+
+        private void SaleBtn_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new AgentSalePage(currentAgent));
         }
     }
 }

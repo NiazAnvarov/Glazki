@@ -16,6 +16,7 @@ namespace Anvarov_Glazki_save
     public partial class Anvarov_GlazkiEntities : DbContext
     {
 
+
         private static Anvarov_GlazkiEntities _context;
 
         public static Anvarov_GlazkiEntities GetContext()

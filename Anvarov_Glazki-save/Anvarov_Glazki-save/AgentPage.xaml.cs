@@ -244,5 +244,42 @@ namespace Anvarov_Glazki_save
         {
             Manager.MainFrame.Navigate(new AddEditPage((sender as Button).DataContext as Agent));
         }
+
+        private void PriorityEdit_Click(object sender, RoutedEventArgs e)
+        {
+            PriorityEditWindow window = new PriorityEditWindow();
+            window.ShowDialog();
+            if (string.IsNullOrWhiteSpace(window.PriorityText.Text))
+            {
+                return;
+            }
+            foreach(Agent AgentLV in AgentListView.SelectedItems)
+            {
+                AgentLV.Priority = Convert.ToInt32(window.PriorityText.Text);
+            }
+            try
+            {
+                Anvarov_GlazkiEntities.GetContext().SaveChanges();
+                MessageBox.Show("Информация сохранена");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message.ToString());
+            }
+
+            UpdateAgents();
+        }
+
+        private void AgentListView_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (AgentListView.SelectedItems.Count > 1)
+            {
+                PriorityEdit.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                PriorityEdit.Visibility = Visibility.Hidden;
+            }
+        }
     }
 }
