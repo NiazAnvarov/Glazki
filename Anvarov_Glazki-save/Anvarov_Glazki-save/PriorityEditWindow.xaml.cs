@@ -22,9 +22,10 @@ namespace Anvarov_Glazki_save
 
         
 
-        public PriorityEditWindow()
+        public PriorityEditWindow(int p)
         {
             InitializeComponent();
+            PriorityText.Text = p.ToString();
         }
 
         private void AddPriority_Click(object sender, RoutedEventArgs e)

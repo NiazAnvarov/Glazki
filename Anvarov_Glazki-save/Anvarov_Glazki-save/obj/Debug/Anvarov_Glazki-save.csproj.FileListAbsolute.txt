@@ -30,3 +30,4 @@ D:\Учёба\Разработка программных модулей\Про�
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.csproj.CopyComplete
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.exe
 D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.pdb
+D:\Учёба\Разработка программных модулей\Проект 2\Проект 2\Проект 2\Project\Anvarov_Glazki-save\Anvarov_Glazki-save\obj\Debug\Anvarov_Glazki-save.csproj.AssemblyReference.cache

@@ -247,7 +247,8 @@ namespace Anvarov_Glazki_save
 
         private void PriorityEdit_Click(object sender, RoutedEventArgs e)
         {
-            PriorityEditWindow window = new PriorityEditWindow();
+            var prior = (AgentListView.SelectedItems.Cast<Agent>().Select(p => p.Priority)).Prepend(0).Max();
+            PriorityEditWindow window = new PriorityEditWindow(prior);
             window.ShowDialog();
             if (string.IsNullOrWhiteSpace(window.PriorityText.Text))
             {
